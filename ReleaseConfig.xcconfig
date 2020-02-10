@@ -1,0 +1,14 @@
+//
+//  ReleaseConfig.xcconfig
+//  CustomConfigurations
+//
+//  Created by yusef naser on 2/8/20.
+//  Copyright © 2020 yusef naser. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-CustomConfigurations/Pods-CustomConfigurations.release.xcconfig"
+
+Backend_URL = https:/\/\release_url
