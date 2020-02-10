@@ -64,12 +64,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2C5039BD23EED8B500CB71BB = {
+		2C3B7BD923F1312E00E60FCB /* configurationFiles */ = {
 			isa = PBXGroup;
 			children = (
 				2C5039E423EEEBF500CB71BB /* TestConfig.xcconfig */,
 				2C5039DF23EEDC3C00CB71BB /* ReleaseConfig.xcconfig */,
 				2C5039DE23EEDB1F00CB71BB /* DebugConfig.xcconfig */,
+			);
+			path = configurationFiles;
+			sourceTree = "<group>";
+		};
+		2C5039BD23EED8B500CB71BB = {
+			isa = PBXGroup;
+			children = (
 				2C5039C823EED8B500CB71BB /* CustomConfigurations */,
 				2C5039C723EED8B500CB71BB /* Products */,
 				09401A1C65BAA9F9D4443F97 /* Pods */,
@@ -88,6 +95,7 @@
 		2C5039C823EED8B500CB71BB /* CustomConfigurations */ = {
 			isa = PBXGroup;
 			children = (
+				2C3B7BD923F1312E00E60FCB /* configurationFiles */,
 				2C5039C923EED8B500CB71BB /* AppDelegate.swift */,
 				2C5039CB23EED8B500CB71BB /* SceneDelegate.swift */,
 				2C5039CD23EED8B500CB71BB /* ViewController.swift */,
